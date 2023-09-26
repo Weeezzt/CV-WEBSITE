@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h5 {
-    padding-top: 20px;
+    padding-top: 2vh;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #474787;
@@ -28,11 +28,12 @@ h1, h2, h3, h5 {
     float: right;
     display: block;
     text-align: center;
-    padding: 15px;
+    padding: 1.5vh;
+    margin-right: 2vw;
 }
 
 .nav-bar a {
-    padding: 16px
+    padding: 1.5vh;
 }
 
 .nav-bar a:hover {
@@ -40,7 +41,8 @@ h1, h2, h3, h5 {
 }
 
 a:link {
-    color: #474787;
+    text-shadow: 0 0.5px #e7cef0;
+    color: #9595d5;
     text-decoration: none;
 }
 
@@ -50,7 +52,7 @@ a:visited {
 
 .welcome-section {
     background-color: #eeeef6;
-    height: 70vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -72,7 +74,7 @@ a:visited {
 .skills {
 
     background-color: #eeeef6;
-    height: 70vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -88,7 +90,7 @@ a:visited {
 
 .progress-bar {
     width: 30%;
-    height: 5%;
+    height: 2vh;
     background-color: #2d3748;
     border-radius: 12px;
     position: relative;
@@ -133,7 +135,7 @@ a:visited {
 
 .past-exp {
     background-color: #eeeef6;
-    height: 220vh;
+    min-height: 200vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -159,7 +161,7 @@ a:visited {
     border: solid 3px;
     border-color: #d2d2db;
     border-radius: 13px;
-    margin: 5rem;
+    margin: 5%;
     box-shadow: 10px 10px 10px 0px rgba(71,71,135,0.71);
 }
 
@@ -171,7 +173,7 @@ a:visited {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin: 5%;
     border: solid 3px;
     border-color: #d2d2db;
     border-radius: 13px;
@@ -189,7 +191,7 @@ a:visited {
     border: solid 3px;
     border-color: #d2d2db;
     border-radius: 13px;
-    margin: 5rem;
+    margin: 5%;
     box-shadow: 10px 10px 10px 0px rgba(71,71,135,0.71);
 }
 
@@ -205,7 +207,7 @@ a:visited {
 
 .contact ul{
     padding: 2rem 0;
-    margin-left: 5rem;
+    margin-left: 2vw;
 }
 
 .contact ul li{
