@@ -61,9 +61,10 @@ a:visited {
 }
 
 .welcome-section img {
-    border-radius: 50%;
-    border: 7px solid #d2d2db; 
+    border-radius: 30%;
     margin-top: 30px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 0px rgba(99, 99, 228, 0.71);
 }
 
 .welcome-section p{
